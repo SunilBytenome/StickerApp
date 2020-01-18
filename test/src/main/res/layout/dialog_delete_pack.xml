@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#00555555"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/root_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/dialog_invite_white_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:background="@drawable/shape_top_title"
+                android:id="@+id/homeTitleDi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="ARE YOU SURE?"
+                android:textColor="#fff"
+                android:textSize="@dimen/_14sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:id="@+id/etPackageName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/grey"
+                    android:text="Deleting this package will also remove it from your WhatApp app.."
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:maxLines="4"
+                    />
+                <View
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="#CAC6C6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"/>
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tvOk"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_green_round"
+                        android:gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:text="Ok"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:padding="@dimen/_7sdp"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_grey"
+                        android:gravity="center"
+                        android:text="Cancel"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

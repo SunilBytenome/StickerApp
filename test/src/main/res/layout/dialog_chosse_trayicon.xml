@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#00555555"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/root_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/dialog_invite_white_back">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/homeTitleDi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+
+
+                android:paddingLeft="@dimen/_30sdp"
+                android:paddingTop="@dimen/_10sdp"
+
+                android:text="PICK YOUR PACK ICON IMAGE"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+              >
+
+                <TextView
+                    android:id="@+id/tvOk"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green_round"
+                    android:gravity="center"
+                    android:padding="@dimen/_9sdp"
+                    android:text="Select pack icon"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/infoPageBackgroundColor"
+    android:orientation="vertical"
+
+  >
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:src="@drawable/ic_left_arrow"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp" />
+        <TextView
+
+
+            android:layout_centerInParent="true"
+            android:id="@+id/tvTitle"
+            android:layout_marginTop="10sp"
+            android:padding="3sp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="STICKER PAK INFO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:background="#DBDADA"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tray_icon"
+            style="@style/InfoButtonStyle"
+            android:clickable="false"
+            android:text="@string/info_screen_tray_icon"
+            android:textColor="#B9B9B9"
+            tools:drawableLeft="@drawable/sticker_3rdparty_web"
+            tools:drawableStart="@drawable/sticker_3rdparty_web" />
+
+        <TextView
+            android:id="@+id/view_webpage"
+            style="@style/InfoButtonStyle"
+            android:drawableStart="@drawable/sticker_3rdparty_web"
+            android:drawableLeft="@drawable/sticker_3rdparty_web"
+            android:text="@string/view_webpage" />
+
+        <TextView
+            android:id="@+id/send_email"
+            style="@style/InfoButtonStyle"
+            android:drawableStart="@drawable/sticker_3rdparty_email"
+            android:drawableLeft="@drawable/sticker_3rdparty_email"
+            android:text="@string/send_email" />
+
+        <TextView
+            android:id="@+id/privacy_policy"
+            style="@style/InfoButtonStyle"
+            android:drawableStart="@drawable/sticker_3rdparty_privacy"
+            android:drawableLeft="@drawable/sticker_3rdparty_privacy"
+            android:text="@string/privacy_policy" />
+
+        <TextView
+            android:id="@+id/license_agreement"
+            style="@style/InfoButtonStyle"
+           />
+
+    </LinearLayout>
+</LinearLayout>

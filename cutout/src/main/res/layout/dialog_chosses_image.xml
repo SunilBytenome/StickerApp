@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#00555555"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/root_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/dialog_invite_white_back">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+
+                android:id="@+id/homeTitleDi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_3sdp"
+                android:text="CHOSSES IMAGE"
+                android:textColor="#247907"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+              >
+
+                <ImageView
+                    android:id="@+id/ivCamera"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+android:src="@drawable/ic_camera"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                  />
+
+                <ImageView
+                    android:src="@drawable/ic_gallery"
+                    android:id="@+id/ivGallery"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

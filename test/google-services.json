@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645180455357",
+    "firebase_url": "https://createsticker-9265c.firebaseio.com",
+    "project_id": "createsticker-9265c",
+    "storage_bucket": "createsticker-9265c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645180455357:android:e41f1b2649d52127c67ad4",
+        "android_client_info": {
+          "package_name": "com.github.gabrielbb.cutout.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645180455357-h5pqon53nb776041s99gf6epd543g4im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.gabrielbb.cutout.test",
+            "certificate_hash": "f3b07a700d8618f9ccbb4fa0ecb922c47216543a"
+          }
+        },
+        {
+          "client_id": "645180455357-gmoc1kb164h1u23nts6ogose4ha5gpha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYPpeZ5EfkjYxMo9nIhAAH-cgaRbRwetw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645180455357-gmoc1kb164h1u23nts6ogose4ha5gpha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

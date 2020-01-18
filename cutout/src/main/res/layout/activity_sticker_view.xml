@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/im_photoview"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_centerInParent="true"
+android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+      android:textColor="#000"
+android:text="vvvvvvvv"
+        android:textSize="@dimen/_12sdp"
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+
+        />
+    <androidx.appcompat.widget.Toolbar
+        android:background="#fff"
+        android:layout_alignParentTop="true"
+        android:id="@+id/photo_edit_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <Button
+            android:layout_marginRight="12sp"
+            android:layout_marginLeft="15sp"
+            android:id="@+id/ic_back"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+
+
+            android:background="@drawable/ic_back" />
+
+
+        <TextView
+            android:background="@drawable/btn_white"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:textColor="#000"
+            android:text="DONE"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/tvSaveSticker"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+
+            />
+
+        <ImageView
+            android:background="@drawable/btn_white"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:src="@drawable/ic_camera"
+            android:id="@+id/ivMoveSticker"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+
+            />
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+
+        android:id="@+id/llLayout"
+     android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_290sdp">
+    <com.xiaopo.flying.sticker.StickerView
+
+        android:id="@+id/sticker_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        app:showBorder="true"
+        app:showIcons="true"
+        >
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/pvPhotoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+
+    </com.xiaopo.flying.sticker.StickerView>
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/loadingView"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <LinearLayout
+android:paddingBottom="@dimen/_10sdp"
+android:paddingTop="@dimen/_10sdp"
+
+        android:background="#fff"
+      android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+android:layout_weight="1"
+
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/ivDecoration"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/ic_decoration_m"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/ivEmojis"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/ic_sticker_m"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/ivText"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/ic_text_m"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/ivEraseBg"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/ic_eraser_m"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/ivAutoEraseBg"
+                    android:layout_margin="@dimen/_10sdp"
+
+                    android:background="@drawable/ic_magic_erase"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

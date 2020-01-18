@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:textSize="@dimen/_11sdp"
+    android:textColor="#999898"
+    android:paddingBottom="@dimen/_4sdp"
+    android:paddingTop="@dimen/_4sdp"
+    android:paddingLeft="@dimen/_5sdp"
+    android:text="Select Font" />

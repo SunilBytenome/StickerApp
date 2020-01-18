@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp">
+    <!--<ImageView
+
+        android:gravity="center"
+        android:textSize="@dimen/_55sdp"
+
+        android:id="@+id/ivImage"
+
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp" />-->
+  <!--  <io.github.rockerhieu.emojicon.EmojiconEditText
+        android:textColor="#862323"
+        android:id="@+id/txtEmojicon"
+        emojicon:textAllCaps="true"
+
+        emojicon:emojiconAlignment="baseline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+   <TextView
+
+         android:gravity="center"
+         android:textSize="@dimen/_55sdp"
+android:background="@null"
+         android:id="@+id/ivImage"
+android:text="��"
+         android:layout_width="@dimen/_70sdp"
+         android:layout_height="@dimen/_70sdp" />
+
+
+</LinearLayout>

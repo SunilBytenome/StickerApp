@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#72DAF0CD"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:src="@drawable/ic_left_arrow"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp" />
+        <TextView
+
+
+            android:layout_centerInParent="true"
+            android:id="@+id/tvTitle"
+            android:layout_marginTop="10sp"
+            android:padding="3sp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="STICKER DETAILS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ivInfo"
+            android:src="@drawable/ic_info"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/ivInfo"
+            android:id="@+id/delete_pack_button"
+            android:src="@drawable/ic_delete"
+
+            android:layout_centerInParent="true"
+
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp" />
+    </RelativeLayout>
+    <View
+        android:background="#E0DDDD"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <RelativeLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/preview_side_margin"
+        android:layout_marginLeft="@dimen/preview_side_margin"
+        android:layout_marginRight="@dimen/preview_side_margin"
+        android:layout_marginStart="@dimen/preview_side_margin">
+<RelativeLayout
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_alignParentLeft="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+  android:layout_centerInParent="true"
+     android:layout_alignParentLeft="true"
+        android:id="@+id/ivTrayImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/im_christmas"
+        app:civ_border_width="2dp"
+
+
+        app:civ_border_color="@color/colorPrimaryDark"/>
+
+
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/ivTrayImage"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/tvPackName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
+            android:layout_marginStart="@dimen/margin_from_tray_to_name"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            tools:text="Pack Name" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
+           android:layout_marginBottom="@dimen/_4sdp"
+                  tools:text="Author" />
+    </RelativeLayout>
+</RelativeLayout>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+android:layout_marginRight="@dimen/_10sdp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/llAddToWhatsApp">
+
+
+
+            <TextView
+
+                android:id="@+id/tvAddStricker"
+android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ ADD STICKER"
+                android:layout_centerVertical="true"
+                android:textColor="#FFC107"
+                android:textSize="@dimen/_12sdp"
+
+        />
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rlSharePack"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+        >
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginBottom="8dp"
+
+                android:layout_marginRight="10dp"
+
+                android:layout_marginTop="8dp"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/ic_share"
+                android:tint="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/tvShare"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share Sticker"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/ivShare"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.github.gabrielbb.cutout.test.WhatsAppBasedCode.BottomFadingRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fadingEdgeLength="@dimen/fading_edge_length"
+            android:paddingEnd="@dimen/preview_side_margin"
+            android:paddingLeft="@dimen/preview_side_margin"
+            android:paddingRight="@dimen/preview_side_margin"
+            android:paddingStart="@dimen/preview_side_margin"
+            android:requiresFadingEdge="vertical" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.1"
+            android:background="#000000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true">
+
+        <FrameLayout
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_blue"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/StickerPreviewButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:drawableLeft="@android:drawable/ic_menu_share"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/white"
+                android:drawableStart="@android:drawable/ic_menu_share"
+                android:focusable="false"
+                android:foreground="@android:color/transparent"
+                android:text="@string/share_pack" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_red"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/StickerPreviewButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/white"
+                android:drawableStart="@android:drawable/ic_menu_delete"
+                android:focusable="false"
+                android:foreground="@android:color/transparent"
+                android:text="@string/delete_pack" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="@dimen/preview_side_margin"
+        android:layout_marginLeft="@dimen/preview_side_margin"
+        android:layout_marginRight="@dimen/preview_side_margin"
+        android:layout_marginStart="@dimen/preview_side_margin"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tvAlreadyAdded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/details_pack_already_added"
+            android:textColor="#9B9B9B"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <FrameLayout
+            android:visibility="gone"
+            android:id="@+id/add_to_whatsapp_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_green"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                style="@style/StickerPreviewButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:drawableLeft="@drawable/sticker_3rdparty_wa"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/sticker_3rdparty_wa"
+                android:focusable="false"
+                android:foreground="@android:color/transparent"
+                android:text="@string/add_to_whatsapp" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+
+            android:id="@+id/rlbackground"
+            android:visibility="visible"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="@dimen/_55sdp">
+            <ImageView
+                android:background="@drawable/shape_half_circle"
+                android:id="@+id/ivBg"
+                android:contentDescription="add"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+               />
+            <TextView
+                android:id="@+id/tvAddWhatsApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ivfloatingBtn"
+                android:layout_alignStart="@+id/ivBg"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:drawableTop="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:text="Whats App "
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                android:textColor="#fff"
+                android:textSize="@dimen/_8sdp" />
+
+            <TextView
+                android:id="@+id/tvDeletePack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAddSticker"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_toStartOf="@+id/tvAddSticker"
+                android:drawableTop="@drawable/ic_delete"
+                android:gravity="center"
+                android:text="Pack"
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                android:textColor="#fff"
+                android:textSize="@dimen/_8sdp" />
+            <TextView
+                android:id="@+id/tvAddSticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/ivBg"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:drawableTop="@drawable/ic_add_circle_outline_black_24dp"
+                android:paddingRight="@dimen/_5sdp"
+                android:text="Sticker"
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="@dimen/_8sdp" />
+            <RelativeLayout
+                android:background="@drawable/shape_floating"
+                android:layout_alignEnd="@+id/ivBg"
+                android:layout_below="@+id/tvDeletePack"
+                android:id="@+id/ivfloatingBtn"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp">
+            <ImageView
+                android:src="@drawable/ic_add"
+               android:layout_centerInParent="true"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+android:id="@+id/ivAddClose"
+             android:layout_gravity="center"
+                app:fabSize="normal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+<!--
+<com.github.clans.fab.FloatingActionMenu
+android:tint="@color/colorPrimary"
+app:backgroundTint="@color/colorPrimary"
+android:id="@+id/fab_menu"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+android:paddingBottom="@dimen/_10sdp"
+android:paddingRight="@dimen/_10sdp"
+
+fab:menu_fab_label="Choose an action"
+fab:fab_colorNormal="#fff"
+fab:fab_colorPressed="#FF4ABC34"
+fab:fab_colorRipple="#FF4ABC34"
+fab:fab_showShadow="true"
+fab:menu_labels_colorNormal="#FF4ABC34"
+fab:menu_labels_colorPressed="#FF4ABC34"
+fab:menu_labels_colorRipple="#FF4ABC34"
+fab:menu_labels_showShadow="true"
+fab:menu_labels_maxLines="-1"
+fab:menu_labels_position="left"
+fab:menu_openDirection="up"
+fab:menu_icon="@drawable/ic_menu"
+fab:fab_shadowColor="#66000000"
+fab:menu_labels_ellipsize="end"
+fab:menu_labels_singleLine="true">
+
+<com.github.clans.fab.FloatingActionButton
+    android:id="@+id/fab1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_add"
+    fab:fab_label="Add Sticker"
+    fab:fab_size="mini" />
+
+<com.github.clans.fab.FloatingActionButton
+    android:id="@+id/fab2"
+    android:background="#FF4ABC34"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_share_white"
+    fab:fab_label="Share Sticker"
+    fab:fab_size="mini" />
+
+<com.github.clans.fab.FloatingActionButton
+    android:id="@+id/fab3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_delete_white"
+    fab:fab_label="Delete Sticker pack"
+    fab:fab_size="mini" />
+
+
+<com.github.clans.fab.FloatingActionButton
+    android:id="@+id/fab4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_add"
+    fab:fab_label="Add To WhatsApp"
+    fab:fab_size="mini" />
+
+</com.github.clans.fab.FloatingActionMenu>-->

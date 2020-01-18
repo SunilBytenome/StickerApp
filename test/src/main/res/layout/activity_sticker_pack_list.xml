@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72DAF0CD"
+    android:orientation="vertical"
+
+   >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp">
+
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/ivBack"
+        android:src="@drawable/ic_left_arrow"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp" />
+    <TextView
+
+
+        android:layout_centerInParent="true"
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="10sp"
+        android:padding="3sp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="STICKER PACKS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:layout_toLeftOf="@+id/ivInfo"
+        android:visibility="gone"
+        android:id="@+id/ivCreatePack"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+android:layout_alignParentRight="true"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp" />
+
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/ivInfo"
+        android:src="@drawable/ic_left_arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp" />
+</RelativeLayout>
+        <TextView
+
+        android:visibility="gone"
+        android:background="@drawable/btn_green"
+        android:id="@+id/tvCreateSticker"
+        android:layout_marginTop="10sp"
+        android:padding="3sp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Create your own  stickers"
+        android:layout_width="300dp"
+        android:layout_height="40dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/sticker_pack_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivAddNewPack"
+        android:src="@drawable/createstkr"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:scaleType="fitXY"
+        android:layout_height="@dimen/_55sdp" />
+
+    <TextView
+        android:id="@+id/tvDataNotFound"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:textSize="@dimen/_15sdp"
+        android:layout_centerInParent="true"
+        android:text="Data not found.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

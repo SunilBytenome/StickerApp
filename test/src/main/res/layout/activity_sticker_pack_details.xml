@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72DAF0CD"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_left_arrow" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            android:padding="3sp"
+            android:text="STICKER DETAILS"
+            android:textColor="#FFC107"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivInfo"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_info" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/preview_side_margin"
+        android:layout_marginLeft="@dimen/preview_side_margin"
+        android:layout_marginEnd="@dimen/preview_side_margin"
+        android:layout_marginRight="@dimen/preview_side_margin"
+        android:layout_marginBottom="24dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tray_image"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/tray_image_content_description"
+            android:src="@drawable/im_photoview"
+
+        />
+<LinearLayout
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_alignParentRight="true"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pack_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="@dimen/_7sdp"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+             tools:text="Pack Name" />
+
+        <TextView
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+              tools:text="Author" />
+    <TextView
+        android:id="@+id/pack_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:visibility="visible"
+        tools:text="Size" />
+    <LinearLayout
+        android:id="@+id/add_to_whatsapp_button"
+android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_2sdp"
+        android:background="@drawable/btn_green_round"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/ic_watsapp" />
+        <TextView
+            android:layout_gravity="center_vertical"
+
+            android:id="@+id/tvOk"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+
+            android:gravity="center"
+
+            android:text="Add to Whats App"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="#D6D5D5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.gabrielbb.cutout.test.static_icon.BottomFadingRecyclerView
+                android:id="@+id/sticker_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:fadingEdgeLength="@dimen/fading_edge_length"
+                android:paddingStart="@dimen/preview_side_margin"
+                android:paddingLeft="@dimen/preview_side_margin"
+                android:paddingEnd="@dimen/preview_side_margin"
+                android:paddingRight="@dimen/preview_side_margin"
+                android:requiresFadingEdge="vertical" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.1"
+                android:background="#000000"
+                android:visibility="invisible"
+                tools:visibility="visible" />
+
+        </FrameLayout>
+
+      <!--  <RelativeLayout
+            android:id="@+id/add_to_whatsapp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="@dimen/_15sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_watsapp" />
+
+
+        </RelativeLayout>-->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/preview_side_margin"
+        android:layout_marginLeft="@dimen/preview_side_margin"
+        android:layout_marginEnd="@dimen/preview_side_margin"
+        android:layout_marginRight="@dimen/preview_side_margin"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/already_added_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/details_pack_already_added"
+            android:textColor="#9B9B9B"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/btn_green"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/ivWhatapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sticker_3rdparty_wa" />
+                <TextView
+                    style="@style/StickerPreviewButtonText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/ivWhatapp"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:drawablePadding="8dp"
+                    android:focusable="false"
+                    android:foreground="@android:color/transparent"
+                    android:text="@string/add_to_whatsapp" />
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

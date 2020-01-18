@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="@dimen/_12sdp"
+        android:textColor="#797777"
+        android:padding="@dimen/_8sdp"
+        android:id="@+id/tvTextSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ccmncdckdcjdkc"
+      />
+<View
+android:visibility="gone"
+    android:background="#CECDCD"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"/>
+</LinearLayout>

@@ -1,0 +1,626 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+
+
+    {
+      "identifier": "2",
+      "name": "Sunil",
+      "publisher": "SUNIL KUMAR",
+      "tray_image_file": "tray_Cuppy.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_Sunil_smile.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "01_Sunil_smile.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_Sunil_rofl.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "03_Sunil_newyear.webp",
+          "emojis": ["😆","😂"]
+        },{
+          "image_file": "02_Sunil_morning.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_Sunil_sad.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_Sunil_cry.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_Sunil_love.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_Sunil_hate.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_Sunil_lovewithmug.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_Sunil_lovewithcookie.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_Sunil_hmm.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_Sunil_upset.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_Sunil_angry.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_Sunil_curious.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_Sunil_weird.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_Sunil_bluescreen.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_Sunil_angry.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_Sunil_tired.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_Sunil_workhard.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_Sunil_shine.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_Sunil_disgusting.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_Sunil_hi.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_Sunil_bye.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_Sunil_greentea.webp",
+          "emojis": ["🍵","😌"]
+        },
+
+        {
+          "image_file": "26_Sunil_battery.webp",
+          "emojis": ["🔋","😵"]
+        }, {
+          "image_file": "26_Sunil_battery.webp",
+          "emojis": ["🔋","😵"]
+        }, {
+          "image_file": "26_Sunil_battery.webp",
+          "emojis": ["🔋","😵"]
+        }, {
+          "image_file": "30_Sunil_christmas.webp",
+          "emojis": ["🔋","😵"]
+        }
+      ]
+    },
+
+
+
+
+
+    {
+      "identifier": "3",
+      "name": "Morning",
+      "publisher": "GoodMorning",
+      "tray_image_file": "tray_Morning.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_Morning_one.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "02_Morning_two.webp",
+          "emojis": ["☕","🙂"]
+        }
+        ,{
+          "image_file": "04_Morning_four.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "05_Morning_five.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "06_Morning_six.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "07_Morning_seven.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "08_Morning_eight.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "09_Morning_nine.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "10_Morning_ten.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "11_Morning_eleven.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "12_Morning_twelve.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "13_Morning_thirteen.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "14_Morning_fourteen.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "15_Morning_fifteen.webp",
+          "emojis": ["☕","🙂"]
+        }
+
+        //
+      ]
+    },
+
+
+    {
+      "identifier": "7",
+      "name": "Chill",
+      "publisher": "Chill Out",
+      "tray_image_file": "tray_Chill.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_Chill_one.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "02_Chill_two.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "03_Chill_three.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "04_Chill_four.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "05_Chill_five.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "06_Chill_six.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "07_Chill_seven.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "08_Chill_eight.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "09_Chill_nine.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "10_Chill_ten.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "11_Chill_eleven.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "12_Chill_twelve.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "13_Chill_thriteen.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "14_Chill_fourteen.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "15_Chill_fifteen.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "16_Chill_sixteen.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "17_Chill_seventeen.webp",
+          "emojis": ["☕","🙂"]
+        }
+      ]
+    },
+
+    {
+      "identifier": "5",
+      "name": "Greet",
+      "publisher": "Greet",
+      "tray_image_file": "tray_Greet.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+         {
+          "image_file": "04_Greet_four.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "05_Greet_five.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "04_Greet_four.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "04_Greet_four.webp",
+          "emojis": ["☕","🙂"]
+        }
+      ]
+    },
+    {
+      "identifier": "lohri",
+      "name": "Lohri",
+      "publisher": "Happy Lohri",
+      "tray_image_file": "tray_Greet.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "2.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "3.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "4.webp",
+          "emojis": ["☕","🙂"]
+        }
+      ]
+    },
+
+    {
+      "identifier": "film",
+      "name": "Filmy",
+      "publisher": "Filmy Sticker",
+      "tray_image_file": "icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": ["☕","🙂"]
+        }, {
+          "image_file": "2.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "3.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "5.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "6.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "7.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "8.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "9.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "10.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "11.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "12.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "13.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "14.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "15.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "16.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "17.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "18.webp",
+          "emojis": ["☕","🙂"]
+        },{
+          "image_file": "bobble_sticker.webp",
+          "emojis": ["☕","🙂"]
+        }
+      ]
+    }
+
+  ]}
+
+/*
+{
+  "identifier": "1",
+  "name": "Cuppy",
+  "publisher": "sunil kumar",
+  "tray_image_file": "tray_Cuppy.png",
+  "image_data_version":"1",
+  "avoid_cache":false,
+  "publisher_email":"",
+  "publisher_website": "",
+  "privacy_policy_website": "",
+  "license_agreement_website": "",
+  "stickers": [
+    {
+      "image_file": "01_Cuppy_smile.webp",
+      "emojis": ["☕","🙂"]
+    },
+    {
+      "image_file": "01_Cuppy_smile.webp",
+      "emojis": ["😄","😀"]
+    },
+    {
+      "image_file": "03_Cuppy_rofl.webp",
+      "emojis": ["😆","😂"]
+    },
+    {
+      "image_file": "04_Cuppy_sad.webp",
+      "emojis": ["😩","😰"]
+    },
+    {
+      "image_file": "05_Cuppy_cry.webp",
+      "emojis": ["😭","💧"]
+    },
+    {
+      "image_file": "06_Cuppy_love.webp",
+      "emojis": ["😍","♥"]
+    },
+    {
+      "image_file": "07_Cuppy_hate.webp",
+      "emojis": ["💔","👎"]
+    },
+    {
+      "image_file": "08_Cuppy_lovewithmug.webp",
+      "emojis": ["😍","💑"]
+    },
+    {
+      "image_file": "09_Cuppy_lovewithcookie.webp",
+      "emojis": ["😘","🍪"]
+    },
+    {
+      "image_file": "10_Cuppy_hmm.webp",
+      "emojis": ["🤔","😐"]
+    },
+    {
+      "image_file": "11_Cuppy_upset.webp",
+      "emojis": ["😱","😵"]
+    },
+    {
+      "image_file": "12_Cuppy_angry.webp",
+      "emojis": ["😡","😠"]
+    },
+    {
+      "image_file": "13_Cuppy_curious.webp",
+      "emojis": ["❓","🤔"]
+    },
+    {
+      "image_file": "14_Cuppy_weird.webp",
+      "emojis": ["🌈","😜"]
+    },
+    {
+      "image_file": "15_Cuppy_bluescreen.webp",
+      "emojis": ["💻","😩"]
+    },
+    {
+      "image_file": "16_Cuppy_angry.webp",
+      "emojis": ["😡","😤"]
+    },
+    {
+      "image_file": "17_Cuppy_tired.webp",
+      "emojis": ["😩","😨"]
+    },
+    {
+      "image_file": "18_Cuppy_workhard.webp",
+      "emojis": ["💻","🌃"]
+    },
+    {
+      "image_file": "19_Cuppy_shine.webp",
+      "emojis": ["🎉","✨"]
+    },
+    {
+      "image_file": "20_Cuppy_disgusting.webp",
+      "emojis": ["🤮","👎"]
+    },
+    {
+      "image_file": "21_Cuppy_hi.webp",
+      "emojis": ["🖐","🙋"]
+    },
+    {
+      "image_file": "22_Cuppy_bye.webp",
+      "emojis": ["🖐","👋"]
+    },
+    {
+      "image_file": "23_Cuppy_greentea.webp",
+      "emojis": ["🍵","😌"]
+    },
+    {
+      "image_file": "24_Cuppy_phone.webp",
+      "emojis": ["📱","😦"]
+    },
+    {
+      "image_file": "25_Cuppy_battery.webp",
+      "emojis": ["🔋","😵"]
+    },
+    {
+      "image_file": "26_Cuppy_battery.webp",
+      "emojis": ["🔋","😵"]
+    }, {
+      "image_file": "26_Cuppy_battery.webp",
+      "emojis": ["🔋","😵"]
+    }, {
+      "image_file": "26_Cuppy_battery.webp",
+      "emojis": ["🔋","😵"]
+    }, {
+      "image_file": "26_Cuppy_battery.webp",
+      "emojis": ["🔋","😵"]
+    }
+
+  ]
+},*/
+
+
+
+
+
+/*{
+          "image_file": "08_Newyear_eigth.webp",
+          "emojis": ["☕","🙂"]
+        }*//*
+
+  ]
+},*/
+//NEW YEAR
+
+/*
+{
+  "identifier": "4",
+  "name": "Newyear",
+  "publisher": "Happy Newyear",
+  "tray_image_file": "tray_Newyear.png",
+  "image_data_version":"1",
+  "avoid_cache":false,
+  "publisher_email":"",
+  "publisher_website": "",
+  "privacy_policy_website": "",
+  "license_agreement_website": "",
+  "stickers": [
+    {
+      "image_file": "12_Newyear_twelve.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "13_Newyear_thirteen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "14_Newyear_fourteen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "15_Newyear_fifteen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "16_Newyear_sixeen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "17_Newyear_seventeen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "18_Newyear_eighteen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "19_Newyear_nineteen.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "20_Newyear_twenty.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "21_Newyear_twentyone.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "22_Newyear_twentytwo.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "23_Newyear_twentythree.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "24_Newyear_twentytfour.webp",
+      "emojis": ["☕","🙂"]
+    },{
+      "image_file": "01_Newyear_one.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "02_Newyear_two.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "03_Newyear_three.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "04_Newyear_four.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "05_Newyear_five.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "06_Newyear_six.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "07_Newyear_seven.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "08_Newyear_eigth.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "09_Newyear_nine.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "10_Newyear_ten.webp",
+      "emojis": ["☕","🙂"]
+    }, {
+      "image_file": "11_Newyear_eleven.webp",
+      "emojis": ["☕","🙂"]
+    }
+    //14_Newyear_fourteen
+  ]},*/

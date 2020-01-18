@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.gabrielbb.cutout.test">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:name=".static_icon.StickerApplication"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".SplashScreenActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <!-- create own sticker -->
+        <activity
+            android:name=".WhatsAppBasedCode.StickerPackListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_sticker_packs_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="*/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewUserIntroActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name=".WhatsAppBasedCode.StickerPackDetailsActivity"
+            android:parentActivityName=".WhatsAppBasedCode.StickerPackListActivity"
+            tools:ignore="UnusedAttribute"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WhatsAppBasedCode.StickerPackDetailsActivity" />
+        </activity>
+        <activity
+
+            android:name=".WhatsAppBasedCode.StickerPackInfoActivity"
+            android:label="@string/title_activity_sticker_pack_info"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".WhatsAppBasedCode.StickerPackDetailsActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WhatsAppBasedCode.StickerPackDetailsActivity" />
+        </activity>
+
+        <provider
+            android:name=".WhatsAppBasedCode.StickerContentProvider"
+            android:authorities="${contentProviderAuthority2}"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.whatsapp.sticker.READ"/>
+
+        <!-- static sticer -->
+        <activity android:name=".static_icon.EntryActivity">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".static_icon.StickerPackListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".static_icon.StickerPackDetailsActivity"
+            android:parentActivityName=".static_icon.StickerPackListActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".static_icon.StickerPackListActivity" />
+        </activity>
+        <activity
+            android:name=".static_icon.StickerPackInfoActivity"
+            android:label="@string/title_activity_sticker_pack_info"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".static_icon.StickerPackDetailsActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".static_icon.StickerPackDetailsActivity" />
+        </activity>
+
+        <provider
+            android:name=".static_icon.StickerContentProvider"
+            android:authorities="${contentProviderAuthority}"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.whatsapp.sticker.READ" />
+
+        <service
+            android:name=".ReminderService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+    </application>
+
+</manifest>
